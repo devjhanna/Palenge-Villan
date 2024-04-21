@@ -1,0 +1,109 @@
+
+:root {
+    font-size: 16px;
+
+    --text-color: #050315;
+    --primary-color: #19E678;
+    --secondary-color: #1987e6;
+    --background-color: #FBFBFE;
+    --accent-color: #19E6DF;
+    --accent2-color: #007C77;
+  
+    --font-family1: font-family: 'Work Sans', serif;;
+  }
+  
+
+.login-main {
+    position: relative;
+    min-height: 800px;
+}
+
+.bbox {
+    z-index: -1;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 16px;
+    background-color: var(--accent-color);
+}
+
+.sbox {
+    z-index: -1;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+    background-color: var(--accent-color);
+}
+
+.bbox:nth-child(1) {
+
+    top: 50px;
+    left: 100px;
+    background-color: var(--primary-color);
+}
+
+.bbox:nth-child(2) {
+    top: 50px;
+    left: 225px;
+    background-color: var(--secondary-color);
+}
+
+.bbox:nth-child(3) {
+    top: 50px;
+    left: 350px;
+    width: 880px;
+    background-color: var(--accent-color);
+}
+
+.bbox:nth-child(4) {
+    top: 175px;
+    left: 100px;
+    background-color: var(--secondary-color);
+}
+
+.bbox:nth-child(5) {
+    top: 175px;
+    left: 225px;
+}
+
+.bbox:nth-child(6) {
+    top: 300px;
+    left: 100px;
+}
+
+.sbox:nth-child(1) {
+    bottom: 50px;
+    right: 100px;
+    background-color: var(--primary-color);
+}
+
+.sbox:nth-child(2) {
+    bottom: 50px;
+    right: 175px;
+    background-color: var(--secondary-color);
+}
+
+.sbox:nth-child(3) {
+    bottom: 50px;
+    right: 250px;
+    width: 980px;
+    background-color: var(--accent-color);
+}
+
+.sbox:nth-child(4) {
+    bottom: 125px;
+    right: 100px;
+    background-color: var(--secondary-color);
+
+}
+
+.sbox:nth-child(5) {
+    bottom: 125px;
+    right: 175px;
+}
+
+.sbox:nth-child(6) {
+    bottom: 200px;
+    right: 100px;
+}

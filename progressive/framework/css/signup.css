@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --text-color: #050315;
+    --primary-color: #19E678;
+    --secondary-color: #1987e6;
+    --background-color: #FBFBFE;
+    --accent-color: #19E6DF;
+    --accent2-color: #007C77;
+  
+    --font-family1: font-family: 'Work Sans', serif;;
+  }
+  
+
+body{
+    margin: 20px 0;
+    background-color: var(--background-color);
+}
+
+
+
+.signup-form {
+
+}
+
