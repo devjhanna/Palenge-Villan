@@ -131,4 +131,8 @@ class Patients{
 		$patient_status = $q->fetchColumn();
 		return $patient_status;
 	}
-    }
+
+}
+
+
+	

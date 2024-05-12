@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --text: #050315;
+    --background: #fbfbfe;
+    --primary: #041B15;
+    --secondary: #136F63;
+    --accent: #22AAA1;
+
+    --font1: 'Work Sans', sans-serif;
+    --font2: 'Quicksand', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    box-sizing: border-box;
+    font-family: var(--font2);
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: var(--text);
+    text-decoration: none;
+    font-family: var(--font2);
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: var(--primary);
+  color: var(--background);
+  height: 70px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: var(--background);
+  padding: 10px;
+  margin: 0 5px;
+  line-height: 0;
+}
+
+.navbar ul a:hover {
+  border-bottom: 2px var(--accent) solid;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+
+/* Utilities */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+/* header */
+
+header {
+    height: 100svh;
+    width: 100svw;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/LandingPage.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.landing-header p{
+  margin-inline: 20px;
+  margin-block: 20px;
+}
+
+.landing-header .btn {
+  margin-inline: 20px;
+  margin-block: 60px 0px;
+  
+}
+
+.landing-header h1 {
+    padding: 0;
+    margin-inline: 20px;
+    margin-block: 60px 20px;
+    color: var(--primary);
+    font-family: var(--font2);
+    font-weight: bolder;
+}
+
+.landing-header p {
+  
+  font-family: var(--font2);
+}
+
+.landing-header .grid {
+    align-items: start;
+}
+
+/* Button */
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--secondary);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+
+}
+
+.btn-light {
+  outline: 2px solid var(--secondary);
+  color: var(--primary);
+  background-color: var(--background);
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.btn-space {
+  margin-right: 5px;
+}

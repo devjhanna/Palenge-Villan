@@ -3,13 +3,13 @@
 
 :root {
   --text-color: #05040c;
-  --primary-color: #19E678;
-  --secondary-color: #1987e6;
+  --primary-color: #041B15;
+  --secondary-color: #136F63;
   --background-color: #FBFBFE;
   --accent-color: #19E6DF;
   --accent2-color: #007C77;
 
-  --font-family1: font-family: 'Quicksand', sans-serif;;
+  --font-family1: 'Quicksand', sans-serif;
 }
 
 html { 
@@ -21,7 +21,7 @@ body {
     font-family: 'Work Sans', serif;
     font-size: 18px;
     color: var(--text-color);
-    background-color: var(--background-color);
+    background-color: var(--primary-color);
 }
 
 body::-webkit-scrollbar {
